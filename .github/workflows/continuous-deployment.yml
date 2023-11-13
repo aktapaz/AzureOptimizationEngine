@@ -1,8 +1,8 @@
 name: AOE Continuous Deployment
 on: 
   workflow_dispatch:
-  schedule:
-    - cron: '30 17 * * *'
+
+   
 jobs:
   AOE-CD:
     environment: dev
